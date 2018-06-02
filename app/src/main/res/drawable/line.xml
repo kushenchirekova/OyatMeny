@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--The root element. Contains one or more <item> elements.-->
+
+    <item>
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="0"
+            android:pivotX="-40%"
+            android:pivotY="78%">
+            <shape
+                android:shape="line">
+
+                <stroke android:color="@color/grey" android:width="1dp"/>
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
